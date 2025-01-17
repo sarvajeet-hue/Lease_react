@@ -1,0 +1,28 @@
+.our_offerings {
+  background: #F0F9FF;
+  padding-bottom: 50px;
+}
+
+.offering_heading {
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0px 50px 0px;
+}
+
+  .offering_heading h1 span {
+      color: #2364AA;
+      font-size: 50px;
+      display: inline-block;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .offering_heading h1 {
+      color: #ed1f24;
+      font-size: 50px;
+      display: inline-block;
+      text-align: center;
+      margin: 0 auto;
+      font-weight: 600;
+      font-family: Poppins-Regular;
+  }
