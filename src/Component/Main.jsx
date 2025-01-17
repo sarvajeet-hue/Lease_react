@@ -13,6 +13,9 @@ import l4 from "../assets/l4.png";
 
 import home_page_banner from '../assets/home-page-banner.png'
 import { Header } from "./Header";
+import { Ouroffering2 } from "./HomepageSections/Ouroffering2";
+import { OurClient } from "./HomepageSections/OurClient";
+import { Footer } from "./common/Footer";
 
 export const Main = () => {
   return (
@@ -37,6 +40,7 @@ export const Main = () => {
         </div>
 
     </section>
+
       <section class="our_offerings">
         <div class=" container">
           <div class="row">
@@ -219,6 +223,12 @@ export const Main = () => {
           </div>
         </div>
       </section>
+
+
+      <Ouroffering2/>
+      <OurClient/>
+      <Footer/>
+      
     </div>
   );
 };

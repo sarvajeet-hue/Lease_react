@@ -557,7 +557,7 @@ i.fa.fa-quote-left {padding: 0px 10px; color: #999;}
 .location_heading2 {margin: 60px auto; text-align: center; padding: 15px 0px 0px 0px;}
 .location_heading2 h1 {color: #2364AA; font-size: 50px; display: block; text-align: center; margin: 0 auto; font-weight: 600; font-family: Poppins-Regular; text-transform: uppercase;}
 footer {margin: 80px 0px;}
-.footer_logo img {margin: 0 auto;}
+/* .footer_logo img {margin: 0 auto;} */
 .footer_logo img {height: 120px;}
 .social_icons {margin: 10px 0px;}
 .social_icons h4 {font-size: 21px; color: #2364AA; display: block; line-height: 24px; padding: 10px 0px; font-weight: 600; text-transform: uppercase; font-family: Poppins-Regular;}
