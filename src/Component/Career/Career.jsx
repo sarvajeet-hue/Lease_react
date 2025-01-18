@@ -22,7 +22,7 @@ const Career = () => {
             <div class="col-md-12">
                 <div class="career_text">
                     <p><b>Leaseonclick</b> is one of the leading retail leasing consultants across India. We specialize in corporate leasing services and offer a wide range of solutions tailored to our clients' needs. Our commitment to integrity, trust, and informed advice makes us the go-to consultants for the best investment opportunities in the sector. Are you passionate about retail leasing and ready to take your career to the next level?</p>
-                         <button class="btn"><a href="open_vacancies.aspx">View Open Positions</a></button>
+                         <button class="btn"><a href="/OpenVacancies">View Open Positions</a></button>
                     </div>
             </div>
         </div>

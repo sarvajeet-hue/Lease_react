@@ -13,6 +13,8 @@ import { Footer } from './Component/common/Footer';
 import ContactUs from './Component/ContactUs/ContactUs';
 import Blog from './Component/Blog/Blog';
 import Career from './Component/Career/Career';
+import OpenVacancies from './Component/OpenVacancies/OpenVacancies';
+import JoinOurTeam from './Component/JoinOurTeam/JoinOurTeam';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs/>}/>
         <Route path='/Blog' element={<Blog/>}/>
         <Route path='/Career' element={<Career/>}/>
+        <Route path='/OpenVacancies' element={<OpenVacancies/>}></Route>
+        <Route path='/JoinOurTeam' element={<JoinOurTeam/>} />
 
       </Routes>
 
