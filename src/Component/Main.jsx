@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import mash_GRoup from "../assets/Mask Group 11.png";
 import mash_GRoup9 from "../assets/Mask Group 9.png";
@@ -17,6 +18,7 @@ import { Ouroffering2 } from "./HomepageSections/Ouroffering2";
 import { OurClient } from "./HomepageSections/OurClient";
 
 import Location from "./HomepageSections/Location";
+import ProgressBar from "./ProgressBar/ProgressBar";
 
 
 
@@ -205,7 +207,7 @@ export const Main = () => {
                       your business simple.
                     </p>
 
-                    <div class="counting_progress">
+                    {/* <div class="counting_progress">
                       <span>
                         <div class="second circle">
                           <strong></strong>
@@ -218,7 +220,8 @@ export const Main = () => {
                         </div>
                         <h4>Area Sq. Ft.</h4>
                       </span>
-                    </div>
+                    </div> */}
+                    <ProgressBar/>
                  
                    
                   </div>

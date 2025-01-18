@@ -3,8 +3,11 @@ import './App.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import $ from 'jquery';
+import 'jquery-circle-progress';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 import { Header } from './Component/Header';
 import { Main } from './Component/Main';

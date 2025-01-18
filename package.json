@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-free": "^6.7.2",
     "bootstrap": "^5.3.3",
     "circle-progress": "^1.0.0",
+    "jquery-circle-progress": "^1.2.2",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-circle-progress": "^1.0.6",
