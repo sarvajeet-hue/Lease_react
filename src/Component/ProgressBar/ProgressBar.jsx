@@ -15,9 +15,9 @@ const ProgressBar = () => {
             // Initialize the first progress circle
             $('.second.circle').circleProgress({
               value: 0.9,
-              size: 120,
+              size: 150,
               thickness: 10,
-              startAngle: -Math.PI / 2,
+              startAngle: Math.PI,
               fill: { gradient: ['#4285f4', '#ea4335'] }, // Green gradient
             }).on('circle-animation-progress', function (event, progress) {
               $(this).find('strong').html(parseInt(100 * progress) + '<i>+</i>');
@@ -26,9 +26,9 @@ const ProgressBar = () => {
             // Initialize the second progress circle
             $('.second2.circle').circleProgress({
               value: 0.7,
-              size: 120,
+              size: 150,
               thickness: 10,
-              startAngle: -Math.PI / 2,
+              startAngle: Math.PI,
               fill: { gradient: ['#4285f4', '#ea4335'] }, // Red and Blue gradient
             }).on('circle-animation-progress', function (event, progress) {
               $(this).find('strong').html(parseInt(500000 * progress) + '<i>+</i>');
