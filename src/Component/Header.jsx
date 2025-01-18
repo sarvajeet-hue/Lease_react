@@ -8,7 +8,7 @@ export const Header = () => {
             <div class="row">
                 <div class="col-md-6 col-xs-3">
                     <div class="logo">
-                        <a href="Default.aspx"><img src={logo} /></a>
+                        <a href="/"><img src={logo} /></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-xs-9">
@@ -16,7 +16,7 @@ export const Header = () => {
                         <ul>
                            
                            
-                            <li><a href="about_us.aspx">ABOUT US</a></li>
+                            <li><a href="/AboutUs">ABOUT US</a></li>
                             <li><a href="blog.aspx">BLOG</a></li>
                             <li><a href="contact_us.aspx">CONTACT US</a></li>
                               <li><a href="career.aspx">CAREER</a></li>

@@ -579,7 +579,7 @@ footer {margin: 80px 0px;}
 /*css form contact use page starts from here*/
 .contact_us_head {background: url(../images/contact-banner.png) no-repeat; background-size:100% 100%; padding-top:10%;}
 .blog-banner{background: url(../images/blog-banner.png) no-repeat; background-size: 100% 100%; padding-top: 10%;}
-.about-banner {background: url(../images/about-us.png) no-repeat; background-size: 100% 100%; padding-top: 10%;}
+.about-banner {background: url(./assets/about-us.png) no-repeat; background-size: 100% 100%; padding-top: 10%;}
 .contact-heading {margin: 50px auto;}
 .contact-heading h1 {color: #2364AA; font-size: 50px; display: block; text-align: center; margin: 30px 0px 14% 0px; font-weight: 600;font-family: Poppins-Regular;}
 article {}

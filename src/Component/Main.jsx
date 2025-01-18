@@ -21,7 +21,7 @@ import Location from "./HomepageSections/Location";
 export const Main = () => {
   return (
     <div>
-      <Header />
+      
       <div class="banner">
         <img src={home_page_banner} />
       </div>
@@ -230,7 +230,7 @@ export const Main = () => {
       
       <OurClient/>
       <Location/>
-      <Footer/>
+      
       
     </div>
   );
