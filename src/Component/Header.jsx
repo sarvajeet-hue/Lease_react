@@ -17,9 +17,9 @@ export const Header = () => {
                            
                            
                             <li><a href="/AboutUs">ABOUT US</a></li>
-                            <li><a href="blog.aspx">BLOG</a></li>
-                            <li><a href="contact_us.aspx">CONTACT US</a></li>
-                              <li><a href="career.aspx">CAREER</a></li>
+                            <li><a href="/Blog">BLOG</a></li>
+                            <li><a href="/ContactUs">CONTACT US</a></li>
+                              <li><a href="/Career">CAREER</a></li>
                         </ul>
                         <div class="clear"></div>
                     </div>

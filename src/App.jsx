@@ -11,6 +11,8 @@ import { Route, Routes } from 'react-router-dom';
 import AboutUs from './Component/Aboutus/AboutUs';
 import { Footer } from './Component/common/Footer';
 import ContactUs from './Component/ContactUs/ContactUs';
+import Blog from './Component/Blog/Blog';
+import Career from './Component/Career/Career';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <Route path='/' element={<Main/>}></Route>
         <Route path='/AboutUs' element={<AboutUs/>}> </Route>
         <Route path='/ContactUs' element={<ContactUs/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Career' element={<Career/>}/>
 
       </Routes>
 
