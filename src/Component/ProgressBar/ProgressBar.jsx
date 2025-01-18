@@ -1,6 +1,11 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery';
 import 'jquery-circle-progress';
+import './ProgressBar.css'
+
+
+
+
 
 const ProgressBar = () => {
     useEffect(() => {
@@ -44,6 +49,8 @@ const ProgressBar = () => {
       }, []);
   
     return (
+
+      
         <div class="counting_progress">
         <span>
           <div class="second circle">
