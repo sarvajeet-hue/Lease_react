@@ -12,11 +12,13 @@ import l3 from "../assets/l3.png";
 import l4 from "../assets/l4.png";
 
 import home_page_banner from '../assets/home-page-banner.png'
-import { Header } from "./Header";
+
 import { Ouroffering2 } from "./HomepageSections/Ouroffering2";
 import { OurClient } from "./HomepageSections/OurClient";
-import { Footer } from "./common/Footer";
+
 import Location from "./HomepageSections/Location";
+
+
 
 export const Main = () => {
   return (
@@ -217,6 +219,8 @@ export const Main = () => {
                         <h4>Area Sq. Ft.</h4>
                       </span>
                     </div>
+                 
+                   
                   </div>
                 </div>
               </div>
