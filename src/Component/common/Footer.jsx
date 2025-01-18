@@ -45,19 +45,19 @@ export const Footer = () => {
                 <h5>Company</h5>
                 <ul>
                   <li>
-                    <a href="Default.aspx">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="about_us.aspx">About Us</a>
+                    <a href="/AboutUs">About Us</a>
                   </li>
                   <li>
-                    <a href="blog.aspx">Blog</a>
+                    <a href="/Blog">Blog</a>
                   </li>
                   <li>
-                    <a href="contact_us.aspx">Contact Us</a>
+                    <a href="/ContactUs">Contact Us</a>
                   </li>
                   <li>
-                    <a href="career.aspx">CAREER</a>
+                    <a href="/Career">CAREER</a>
                   </li>
                 </ul>
               </div>
