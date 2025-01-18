@@ -16,6 +16,8 @@ import Blog from './Component/Blog/Blog';
 import Career from './Component/Career/Career';
 import OpenVacancies from './Component/OpenVacancies/OpenVacancies';
 import JoinOurTeam from './Component/JoinOurTeam/JoinOurTeam';
+import Commercial from './Component/BlogContent/Commercial';
+import RealState from './Component/RealState/RealState';
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
         <Route path='/Career' element={<Career/>}/>
         <Route path='/OpenVacancies' element={<OpenVacancies/>}></Route>
         <Route path='/JoinOurTeam' element={<JoinOurTeam/>} />
+        <Route path='/Commercial' element={<Commercial/>}/>
+        <Route path='/RealState' element={<RealState/>}/> 
 
       </Routes>
 
