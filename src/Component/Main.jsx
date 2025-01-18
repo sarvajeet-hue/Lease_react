@@ -16,6 +16,7 @@ import { Header } from "./Header";
 import { Ouroffering2 } from "./HomepageSections/Ouroffering2";
 import { OurClient } from "./HomepageSections/OurClient";
 import { Footer } from "./common/Footer";
+import Location from "./HomepageSections/Location";
 
 export const Main = () => {
   return (
@@ -226,7 +227,9 @@ export const Main = () => {
 
 
       <Ouroffering2/>
+      
       <OurClient/>
+      <Location/>
       <Footer/>
       
     </div>

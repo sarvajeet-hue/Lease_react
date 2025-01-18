@@ -1,5 +1,7 @@
 import React from "react";
 import logo from '../../assets/logo.png'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 export const Footer = () => {
   return (
@@ -19,22 +21,22 @@ export const Footer = () => {
                   href="https://www.facebook.com/leaseonclick/"
                   target="_blank"
                 >
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa-brands fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.instagram.com/leaseonclick/"
                   target="_blank"
                 >
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                 </a>
                 <a href="https://twitter.com/leaseonclick" target="_blank">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa-brands fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://in.linkedin.com/company/leaseonclick"
                   target="_blank"
                 >
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
