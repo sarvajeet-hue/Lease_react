@@ -38,7 +38,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>01</span></p>
                             <p><b>Experience :</b> <span>0-2 Years </span></p>
                             <p><b>Keyskills :</b> <span>Efficient recruitment management, end-to-end HR Operations, advanced sourcing techniques, attention to detail, exceptional communication skills, team collaboration.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=hrExecutive">Apply now</a></span>
                         </div>
 
                     </div>
@@ -51,7 +51,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>03</span></p>
                             <p><b>Experience :</b> <span>0-2 Years </span></p>
                             <p><b>Keyskills :</b> <span>Financial analysis, sales strategy, market research, client engagement, market insight, communication, problem solving, networking, relationship management, presenting abilities, and time management.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=bde">Apply now</a></span>
                         </div>
 
                     </div>
@@ -63,7 +63,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>04</span></p>
                             <p><b>Experience :</b> <span>0-2 Years </span></p>
                             <p><b>Keyskills :</b> <span>Financial analysis, sales strategy, market research, client engagement, market insight, communication, problem solving, networking, relationship management, presenting abilities, and time management.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=bde">Apply now</a></span>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -74,7 +74,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>02</span></p>
                             <p><b>Experience :</b> <span>0-2 Years </span></p>
                             <p><b>Keyskills :</b> <span>Financial analysis, sales strategy, market research, client engagement, market insight, communication, problem solving, networking, relationship management, presenting abilities, and time management.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=bde">Apply now</a></span>
                         </div>
 
                     </div>
@@ -88,7 +88,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>02</span></p>
                             <p><b>Experience :</b> <span>2-6 Years </span></p>
                             <p><b>Keyskills :</b> <span>Target attainment, team leadership, project management, and strategic planning.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=bdm">Apply now</a></span>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>01</span></p>
                             <p><b>Experience :</b> <span>2-6 Years </span></p>
                             <p><b>Keyskills :</b> <span>Target attainment, team leadership, project management, and strategic planning.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=bdm">Apply now</a></span>
                         </div>
                     </div>
 
@@ -112,7 +112,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>01</span></p>
                             <p><b>Experience :</b> <span>2-6 Years </span></p>
                             <p><b>Keyskills :</b> <span>Target attainment, team leadership, project management, and strategic planning.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=bdm">Apply now</a></span>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -123,7 +123,7 @@ const OpenVacancies = () => {
                             <p><b>No. of positions :</b> <span>01</span></p>
                             <p><b>Experience :</b> <span>0-1 Years </span></p>
                             <p><b>Keyskills :</b> <span> Communication Skills, Customer Service, Multitasking, Organizational Skills, Time Management, Problem-Solving, Attention to Detail, Tech-Savvy, Professionalism, Teamwork.</span></p>
-                            <span class="applybtn"><a href="/JoinOurTeam">Apply now</a></span>
+                            <span class="applybtn"><a href="/JoinOurTeam?posi=foe">Apply now</a></span>
                         </div>
                     </div>
 

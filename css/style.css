@@ -75,7 +75,7 @@ header {
     z-index: 999;
     width: 100%;
     height: 100%;
-    display:none;
+    
 }
 .popup{
     max-width: 350px;
@@ -110,6 +110,7 @@ header {
 .popup .close img {
     width: 22px;
 }
+
 
 .banners{display:block;}
 .banners img{width:100%; height:500px;}
@@ -707,10 +708,13 @@ ul.ullist {padding-left: 20px;}
 .card1 h4 {font-size: 25px; color: #000; font-weight: 600;line-height: 32px; padding-bottom:8px;}
 .card1 p {font-size: 17px; color: #000; font-weight: 500;line-height: 32px; padding:0px 0px;}
 .card1 .applybtn {width: 118px; border: none; outline: none; cursor: pointer; color: #fff; font-size: 15px; background: linear-gradient(to bottom, #2364AA 38.5%, #0F2A48 100%); -webkit-transition: all 0.30s ease-in-out; -moz-transition: all 0.30s ease-in-out; -ms-transition: all 0.30s ease-in-out; transition: all 0.30s ease-in-out; padding: 5px 8px; border-radius: 20px; display: inline-block; text-align: center; margin:20px 0px 8px;}
-.card1 .applybtn a{color:#fff;}
+.card1 .applybtn a{color:#fff; text-decoration: none;}
 .get-in-touch-text {width: 57%; text-align: center; justify-content: center; margin: 30px auto; font-size: 23px; font-weight: 500; line-height: 30px;}
-.btn-contact-us {font-size:17px; font-weight:600; color:#447AB6; outline:none; background:none; border:none; width:150px; margin:0 auto; border-radius: 8px; padding:12px 8px; box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,-8.9), 0 4px 4px rgba(0,0,0,-8.9), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);}
+.btn-contact-us {font-size:17px; font-weight:600; color:#447AB6;  outline:none; background:none; border:none; width:150px; margin:0 auto; border-radius: 8px; padding:12px 8px; box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,-8.9), 0 4px 4px rgba(0,0,0,-8.9), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);}
 .contact2btn{margin:0 auto; text-align:center;}
+.btn-contact-us a {
+    text-decoration: none;
+}
 /* career page css end*/
 
 /* join our team css start*/
@@ -729,7 +733,7 @@ textarea.txtArea {font-size: 17px;color: #5e5b5b; font-weight: 500; width: 100%;
 .join-our-Form .btn {width:100%; border: none; outline: none; cursor: pointer;color: #fff; font-size: 18px; background: linear-gradient(to bottom, #2364AA 38.5%, #0F2A48 100%); -webkit-transition: all 0.30s ease-in-out; -moz-transition: all 0.30s ease-in-out; -ms-transition: all 0.30s ease-in-out; transition: all 0.30s ease-in-out; padding: 12px 16px; border-radius: 50px; display: inline-block; text-align: center; margin:15px 0px;}
 .join-our-Form .btn:hover a{color:#fff;}
 .join-our-Form .btn a{color:#fff; font-weight:600;}
-.popup2 {width: 100%;height: 100%; display: none; position: fixed; top: 0px; left: 0px; background: rgba(0, 0, 0, 0.75); z-index: 999;}
+.popup2 {width: 100%;height: 100%;  position: fixed; top: 0px; left: 0px; background: rgba(0, 0, 0, 0.75); z-index: 999;}
 .popup-inner {max-width: 25%; width: 90%; padding: 20px; position: absolute; top: 43%;left: 50%; -moz-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); box-shadow: 0px 2px 6px rgba(0, 0, 0, 1); border-radius: 3px; background: #fff;}
 .popup-close {width: 40px;height: 40px; padding-top: 4px; display: inline-block; position: absolute; top: 23px; right: 24px; transition: ease 0.25s all; transform: translate(50%, -50%); border-radius: 1000px; font-family: Arial, sans-serif; font-size: 20px; text-align: center; line-height: 100%; color: #000; cursor:pointer;}
 .popup-inner h3{font-size:20px; color:#000; font-weight:500; line-height:28px; margin-bottom:7px;}
