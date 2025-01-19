@@ -33,10 +33,29 @@ const JoinOurTeam = () => {
     };
 
     function ApplyForm(data) {
-        localStorage.setItem('Apply_Form', JSON.stringify(data))
-        setShowPopup(true)
-        reset()
-    }
+        setResumeName("Upload resume"); // Reset the resume name state
+    
+        localStorage.setItem("Apply_Form", JSON.stringify(data));
+        setShowPopup(true);
+        setResumeName("Upload resume");
+    
+        // Reset with default values
+        reset(
+          {
+            Name: "",
+            Email: "",
+            PhoneNo: "",
+            Position: givePosition(),
+            Message: "",
+            Resume: null,
+          },
+          {
+            keepDefaultValues: true,
+          }
+        );
+    
+        document.getElementById("input-file").value = "";
+      }
 
     const givePosition = () => {
         if (posi === "bdm") {
