@@ -3,9 +3,11 @@ import blog from '../../assets/blog-img.jpg'
 import blog1 from '../../assets/blog-1.jpg'
 import blog_image from '../../assets/blog-img.jpg'
 import blog_1 from '../../assets/blog-1.jpg'
+import { Header } from '../Header'
 
 const Blog = () => {
   return (
+    
     <div>
         <section class="blog-banner">
         <div class="container">
