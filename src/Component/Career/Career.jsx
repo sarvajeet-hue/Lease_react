@@ -1,6 +1,7 @@
 import React from 'react'
 import contact_us from '../../assets/contact_us.png' 
 import banner from '../../assets/banner.png'
+import Accordion from '../Accordation/Accordation'
 
 const Career = () => {
   return (
@@ -62,7 +63,7 @@ const Career = () => {
                 </div>
             </div>
         </div>
-        <div class="row">
+        {/* <div class="row">
             <div class="col-md-4">
                 <div class="reason2joinus">
                     <h3>5 great reasons to join us </h3>
@@ -141,7 +142,8 @@ const Career = () => {
 
 
             </div>
-        </div>
+        </div> */}
+        <Accordion/>
     </div>
    
     <section class="showcase">
