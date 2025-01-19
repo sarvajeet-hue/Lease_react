@@ -59,7 +59,7 @@ const Blog = () => {
                 <div class="latestpost">
                     <h4>Latest Post</h4>
                     <div class="row small_blog">
-                        <a href="What-is-commercial-real-estate.aspx">
+                        <a href="/Commercial">
                             <div class="col-md-4">
                                 <img class="img-responsive" src={blog_image} alt=""/>
                             </div>
@@ -70,7 +70,7 @@ const Blog = () => {
                         <hr/>
                     </div>
                    <div class="row small_blog">
-                        <a href="The-things-which-you-should-know-about-Real-Estate">
+                        <a href="/RealState">
                             <div class="col-md-4">
                                 <img class="img-responsive" src={blog_1} alt=""/>
                             </div>

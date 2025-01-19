@@ -53,7 +53,7 @@ const Commercial = () => {
                     <div class="latestpost">
                         <h4>Latest Post</h4>
                         <div class="row latest_sec">
-                            <a href="What-is-commercial-real-estate.aspx">
+                            <a href="/Commercial">
                                 <div class="col-md-4">
                                     <img class="img-responsive" src={blog_img} alt=""/>
                                 </div>  
@@ -64,7 +64,7 @@ const Commercial = () => {
                             <hr/>
                         </div>
                         <div class="row latest_sec">
-                            <a href="The-things-which-you-should-know-about-Real-Estate.aspx">
+                            <a href="/RealState">
                                 <div class="col-md-4">
                                     <img class="img-responsive" src={blog_img1} alt=""/>
                                 </div>
