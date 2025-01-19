@@ -1,13 +1,25 @@
 import React from 'react'
 import cancel from '../../assets/cancel.png'
+import { useForm } from 'react-hook-form';
 
 
 const ContactUs = () => {
+    const {
+        register,
+        handleSubmit,
+
+    } = useForm();
+
+    function contactUsSubmit(data) {
+
+        localStorage.setItem('Contact_Us_Data', JSON.stringify(data))
+    }
+
     return (
         <div>
             <div class="background-bg">
                 <div class="popup">
-                    <a class="close" href="#"><img src={cancel}/></a>
+                    <a class="close" href="#"><img src={cancel} /></a>
                     <div class="content">
                         Thank you, your enquiry has been submitted successfully.
 
@@ -70,19 +82,19 @@ const ContactUs = () => {
                                 <div class="title_container">
                                     <h2>Send us a message</h2>
                                 </div>
-                                <form>
+                                <form >
                                     <div class="row clearfix">
                                         <div class="col_half">
                                             <label>First Name*</label>
                                             <div class="input_field">
-                                                <input type="text" name="first_name" placeholder="First Name*" id="FirstName" maxlength="50" />
+                                                <input type="text" {...register('first_name')} name="first_name" placeholder="First Name*" id="FirstName" maxlength="50" />
                                                 <p id="lblfirstname"></p>
                                             </div>
                                         </div>
                                         <div class="col_half">
                                             <label>Last Name</label>
                                             <div class="input_field">
-                                                <input type="text" name="last_name" placeholder="Last Name" id="LastName" maxlength="50" />
+                                                <input type="text" {...register("last_name")} name="last_name" placeholder="Last Name" id="LastName" maxlength="50" />
                                             </div>
                                         </div>
                                     </div>
@@ -90,14 +102,14 @@ const ContactUs = () => {
                                         <div class="col_half">
                                             <label>Email*</label>
                                             <div class="input_field">
-                                                <input type="email" name="email" placeholder="Email*" id="Email" maxlength="80" />
+                                                <input type="email" {...register('email')} name="email" placeholder="Email*" id="Email" maxlength="80" />
                                                 <p id="lblemail"></p>
                                             </div>
                                         </div>
                                         <div class="col_half">
                                             <label>Phone*</label>
                                             <div class="input_field">
-                                                <input type="text" name="phone" placeholder="Phone no.*" id="Phone" onkeypress="return dfsdfs(event);" maxlength="16" />
+                                                <input type="text" {...register("phone")} name="phone" placeholder="Phone no.*" id="Phone" onkeypress="return dfsdfs(event);" maxlength="16" />
                                                 <p id="lblphone"></p>
                                             </div>
                                         </div>
@@ -106,13 +118,13 @@ const ContactUs = () => {
                                         <div>
                                             <label>Message</label>
                                             <div class="textarea_field">
-                                                <textarea cols="46" rows="3" name="Message" placeholder="Message" id="Message"></textarea>
+                                                <textarea cols="46" rows="3" {...register('Message')} name="Message" placeholder="Message" id="Message"></textarea>
                                                 <p id="lblmessage"></p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <span class="button" id="btnsubmit">SUBMIT</span>
+                                    <span onClick={handleSubmit(contactUsSubmit)} class="button" id="btnsubmit">SUBMIT</span>
                                 </form>
                             </div>
                         </div>

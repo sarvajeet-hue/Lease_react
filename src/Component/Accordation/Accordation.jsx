@@ -41,13 +41,13 @@ const Accordion = () => {
                     >
                       {`0${panel.id}`}
                     </span> */}
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class={`faqs-number ${activeIndex === index ? "isactive" : ""}`}>{`0${panel.id}`}</span> 
+                    <a className={`accordion-toggle ${activeIndex === index ? "" : "collapsed"}`} data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class={`faqs-number ${activeIndex === index ? "isactive" : ""}`}>{`0${panel.id}`}</span> 
                     </a>
                     {panel.title}
                   </h4>
                 </div>
                 <div
-                  className={`panel-collapse collapse ${
+                  className={`panel-collapse  ${
                     activeIndex === index ? "in" : ""
                   }`}
                 >
