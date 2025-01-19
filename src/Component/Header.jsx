@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Header = () => {
   return (

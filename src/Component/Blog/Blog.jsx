@@ -30,7 +30,7 @@ const Blog = () => {
                     <span>10 December 2022</span>
                     <div class="row">
                         <div class="col-md-4">
-                            <a href="What-is-commercial-real-estate.aspx"><img class="img-responsive" src={blog} alt=""/></a>
+                            <a href="/Commercial"><img class="img-responsive" src={blog} alt=""/></a>
                         </div>
                         <div class="col-md-8">
                             <p>Commercial real estate (CRE) is a property that is used exclusively for business-related purposes or to provide a workspace rather than as a living space, which would instead constitute the residential real estate.</p>
@@ -45,7 +45,7 @@ const Blog = () => {
                      <span>14 December 2022</span>
                     <div class="row">
                         <div class="col-md-4">
-                            <a href="The-things-which-you-should-know-about-Real-Estate.aspx"><img class="img-responsive" src={blog1} alt=""/></a>
+                            <a href="/RealState"><img class="img-responsive" src={blog1} alt=""/></a>
                         </div>
                         <div class="col-md-8">
                             <p>Real estate is connected to the land, whether natural or man-made—including water, trees, minerals, buildings, homes, and many more. Real estate is known as a part of real property.</p>
