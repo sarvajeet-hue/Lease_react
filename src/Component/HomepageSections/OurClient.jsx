@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import retail from '../../assets/retail-logo.png'
-import hotel from '../../assets/hotels-logo.png'
+import hotel from '../../assets/Hotels-logo.png'
 import cinema from '../../assets/cinema-logo.png'
 import f_and_b from '../../assets/f&b-logo.png'
 

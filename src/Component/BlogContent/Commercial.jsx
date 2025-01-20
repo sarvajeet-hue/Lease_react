@@ -3,6 +3,7 @@ import blog_img from '../../assets/blog-img.jpg'
 import blog_img2 from '../../assets/blog-img2.jpg'
 import blog_img3 from '../../assets/blog-img3.jpg'
 import blog_img1 from '../../assets/blog-1.jpg'
+import { Link } from 'react-router-dom'
 
 const Commercial = () => {
   return (
@@ -53,25 +54,25 @@ const Commercial = () => {
                     <div class="latestpost">
                         <h4>Latest Post</h4>
                         <div class="row latest_sec">
-                            <a href="/Commercial">
+                            <Link to={"/Commercial"}>
                                 <div class="col-md-4">
                                     <img class="img-responsive" src={blog_img} alt=""/>
                                 </div>  
                                 <div class="col-md-8">
                                     <strong>What is commercial real estate?</strong>
                                 </div>
-                            </a>
+                            </Link>
                             <hr/>
                         </div>
                         <div class="row latest_sec">
-                            <a href="/RealState">
+                            <Link to={"/RealState"}>
                                 <div class="col-md-4">
                                     <img class="img-responsive" src={blog_img1} alt=""/>
                                 </div>
                                 <div class="col-md-8">
                                     <strong>The things which you should know about Real Estate</strong>
                                 </div>
-                            </a>
+                            </Link>
                             <hr/>
                         </div>
                     </div>

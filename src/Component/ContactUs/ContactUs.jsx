@@ -56,28 +56,28 @@ const ContactUs = () => {
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="all_addresss">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <p>+91-120-4381855</p>
                             <p>+91 8750330505</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    {/* <div class="col-md-3">
                         <div class="all_addresss">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <h4>CORPORATE ADDRESS</h4>
                             <p>OFFICE ADDRESS B-37, Ground Floor, Sector - 2, Noida (UP), India - 201301</p>
                         </div>
-                    </div>
-                    <div class="col-md-3">
+                    </div> */}
+                    <div class="col-md-4">
                         <div class="all_addresss">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <h4>BRANCH ADDRESS</h4>
+                            <h4> ADDRESS</h4>
                             <p>SCO 43 ground floor, Metro plaza city market, Lohgarh road, Zirakpur pin code (140603), District Mohali</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="all_addresss">
                             <i class="fa fa-globe" aria-hidden="true"></i>
                             <p>info@leaseonclick.com</p>

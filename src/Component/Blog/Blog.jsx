@@ -4,6 +4,7 @@ import blog1 from '../../assets/blog-1.jpg'
 import blog_image from '../../assets/blog-img.jpg'
 import blog_1 from '../../assets/blog-1.jpg'
 import { Header } from '../Header'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   return (
@@ -45,11 +46,11 @@ const Blog = () => {
                      <span>14 December 2022</span>
                     <div class="row">
                         <div class="col-md-4">
-                            <a href="/RealState"><img class="img-responsive" src={blog1} alt=""/></a>
+                            <Link to={"/RealState"}><img class="img-responsive" src={blog1} alt=""/></Link>
                         </div>
                         <div class="col-md-8">
                             <p>Real estate is connected to the land, whether natural or man-made—including water, trees, minerals, buildings, homes, and many more. Real estate is known as a part of real property.</p>
-                           <p class="readmore"><a href="/RealState">Read More</a></p>
+                           <p class="readmore"><Link to={"/RealState"}>Read More</Link></p>
                         </div>
                     </div>
                 </div>
@@ -59,25 +60,25 @@ const Blog = () => {
                 <div class="latestpost">
                     <h4>Latest Post</h4>
                     <div class="row small_blog">
-                        <a href="/Commercial">
+                        <Link to={"/Commercial"}>
                             <div class="col-md-4">
                                 <img class="img-responsive" src={blog_image} alt=""/>
                             </div>
                             <div class="col-md-8">
                                 <strong>What is commercial real estate </strong>
                             </div>
-                        </a>
+                        </Link>
                         <hr/>
                     </div>
                    <div class="row small_blog">
-                        <a href="/RealState">
+                        <Link to={"/RealState"}>
                             <div class="col-md-4">
                                 <img class="img-responsive" src={blog_1} alt=""/>
                             </div>
                             <div class="col-md-8">
                                 <strong>The things which you should know about Real Estate</strong>
                             </div>
-                        </a>
+                        </Link>
                        
                     </div>
                 </div>

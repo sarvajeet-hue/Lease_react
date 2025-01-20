@@ -1,7 +1,7 @@
 import React from "react";
-import logo from '../../assets/logo.png'
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import logo from "../../assets/logo.png";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -43,23 +43,25 @@ export const Footer = () => {
             <div class="col-md-3">
               <div class="footer_menus">
                 <h5>Company</h5>
-                <ul>
+                <nav>
+                  <ul>
                   <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>
-                    <a href="/AboutUs">About Us</a>
-                  </li>
-                  <li>
-                    <a href="/Blog">Blog</a>
-                  </li>
-                  <li>
-                    <a href="/ContactUs">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="/Career">CAREER</a>
-                  </li>
-                </ul>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/AboutUs">About Us</Link>
+                    </li>
+                    <li>
+                      <Link to="/Blog">Blog</Link>
+                    </li>
+                    <li>
+                      <Link to="/ContactUs">Contact</Link>
+                    </li>
+                    <li>
+                      <Link to="/Career">Career</Link>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
             <div class="col-md-3">
@@ -85,7 +87,7 @@ export const Footer = () => {
               </div>
             </div>
             <div class="col-md-3">
-              <div class="footer_address">
+              {/* <div class="footer_address">
                 <h5>corporate Address</h5>
                 <ul>
                   <li>
@@ -95,9 +97,9 @@ export const Footer = () => {
                     </p>{" "}
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div class="footer_address">
-                <h5>Branch Address</h5>
+                <h5>Address</h5>
                 <ul>
                   <li>
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
