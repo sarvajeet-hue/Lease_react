@@ -1,0 +1,17 @@
+#menu-toggle {width: 45px; position: absolute; z-index: 1;  top: 22px;  right: 15px; cursor: pointer; display: block; padding: 10px 15px; user-select: none;}
+#menu-toggle div {display: inline-block;}
+#menu-toggle .menu-text {padding-right: 4px;}
+#menu-toggle .menu-text:before {content: "Menu"; font-size: 16px; color: #000;}
+#menu-toggle .bar {background: #2364AA; width: 21px; height: 2px; transition: 0.25s all ease; position: absolute; right: 13px;}
+#menu-toggle .bar.top {top: 10px;}
+#menu-toggle .bar.middle {top: 16px;}
+#menu-toggle .bar.bottom {top: 22px;}
+#menu-toggle.active .menu-text:before {content: "Close";}
+#menu-toggle.active .bar.top {transform: rotate(-225deg); top: 16px; background:#fff;}
+#menu-toggle.active .bar.middle {transform: rotate(225deg); top: 16px; height: 1px;}
+#menu-toggle.active .bar.bottom {transform: rotate(225deg); top: 16px; background:#fff;}
+.screens {position: absolute; background: #2364AA; width: 100%; left: 0; top: 0; right: 0; display: block;}
+.screens p {color: #fff; padding: 15px;}
+.mobile-menuz ul{padding:15px;}
+.mobile-menuz ul li{padding:9px 10px; list-style:none;}
+.mobile-menuz ul li a{text-decoration:none!important; color:#fff; font-size:17px;font-family: Poppins-Regular;}

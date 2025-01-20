@@ -51,6 +51,7 @@ input:focus {
     padding:5px 0px;
 }
 
+.mobile-screen {display: none;}
     .logo img {
         padding: 0px 0px;
         width:95px;
@@ -899,6 +900,8 @@ span#lblfirstname, span#lblemail, span#lblphone, lblposition {color: red; margin
         .testimonial-content.quote {padding: 10px;}
         .testimonials_left {margin: 0px;}
         .testimonials {background: linear-gradient(to bottom, #2364AA 17.5%, #ed1f24 18%);}
+        .navigation {display: none;}
+        .mobile-screen {display: block;}
         }
     
 
@@ -972,8 +975,14 @@ span#lblfirstname, span#lblemail, span#lblphone, lblposition {color: red; margin
         .ls-right {margin: 20px auto;}
         .align_count {margin: 0 auto !important; text-align: center; display: inline-flex; width: 100% !important;}
         .mission p {width: 100% !important;}
-        .mission1 p {width: 100% !important;
-        }
+        .mission1 p {width: 100% !important;}
+        .navigation {display: none;}
+        .mobile-screen {display: block;}
     }
 
 /*responsive css end*/
+
+
+
+
+
