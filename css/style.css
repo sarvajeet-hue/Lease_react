@@ -499,7 +499,7 @@ header {
 .our_clients_heading h1 {color: #ed1f24; font-size: 50px; display: inline-block; text-align: center; margin: 0 auto; font-weight: 600; font-family: Poppins-Regular;}
 .image {position: relative; height: 100%; width: 340px; border-radius: 20px; overflow: hidden; transition: 1s ease; z-index: 1; margin: 0 auto;}
 .details-window { height: 100%; width: 340px; opacity: 0; background: #2364AA; position: absolute; border-radius: 0px; text-align: center; z-index: 99999 !important;}
-.up { bottom: -72.67%;}
+.up { bottom: -72.60%;}
 .one:hover .up {transform: translateY(-72.5%); opacity: 1; transition: 1s ease; border:2px  solid #2364AA;}
 
 /* tabs starts*/
@@ -572,7 +572,7 @@ footer {margin: 80px 0px;}
 .tabs li a.current {color: #fff; background: linear-gradient(to bottom, #ed1f24 24.5%, #2364AA 87%); padding: 3px 15px; border-radius: 15px 15px 0px 0px;}
 .tabs li a.current::after {transition: 300ms; height: 3px; position: absolute; background-color: #2364AA; width: 97%; left: 2px; color: #000; display: block;}
 /*css form contact use page starts from here*/
-.contact_us_head {background: url(../src/assets/banner.png) no-repeat; background-size:100% 100%; padding-top:10%;}
+.contact_us_head {background: url(../src/assets/contact-banner.png) no-repeat; background-size:100% 100%; padding-top:10%;}
 .blog-banner{background: url(../src/assets//blog-banner.png) no-repeat; background-size: 100% 100%; padding-top: 10%;}
 .about-banner {background: url(../src/assets/about-us.png) no-repeat; background-size: 100% 100%; padding-top: 10%;}
 .contact-heading {margin: 50px auto;}
@@ -713,7 +713,7 @@ ul.ullist {padding-left: 20px;}
 .btn-contact-us {font-size:17px; font-weight:600; color:#447AB6;  outline:none; background:none; border:none; width:150px; margin:0 auto; border-radius: 8px; padding:12px 8px; box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,-8.9), 0 4px 4px rgba(0,0,0,-8.9), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);}
 .contact2btn{margin:0 auto; text-align:center;}
 .btn-contact-us a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 /* career page css end*/
 

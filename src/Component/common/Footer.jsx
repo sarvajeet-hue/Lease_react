@@ -117,7 +117,7 @@ export const Footer = () => {
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <p>COPYRIGHT 2017-2024, LEASEONCLICK | ALL RIGHTS RESERVED</p>
+              <p>COPYRIGHT 2017-2025, LEASEONCLICK | ALL RIGHTS RESERVED</p>
             </div>
           </div>
         </div>
