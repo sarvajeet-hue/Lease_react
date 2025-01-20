@@ -26,3 +26,9 @@
       font-weight: 600;
       font-family: Poppins-Regular;
   }
+  .col-xs-3 {
+    width: 25%;
+}
+.col-xs-9 {
+  width: 75%;
+}

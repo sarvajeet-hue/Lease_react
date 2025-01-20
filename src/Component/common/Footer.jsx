@@ -11,7 +11,7 @@ export const Footer = () => {
           <div class="row">
             <div class="col-md-3">
               <div class="footer_logo">
-                <a href="Default.aspx">
+                <a href="/">
                   <img src={logo} />
                 </a>
               </div>

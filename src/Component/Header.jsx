@@ -8,12 +8,12 @@ export const Header = () => {
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-3">
+                <div class="col-md-6 col-3">
                     <div class="logo">
                         <a href="/"><img src={logo} /></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-9">
+                <div class="col-md-6 col-9">
                     <div class="navigation">
                         <ul>
                            
