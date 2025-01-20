@@ -51,7 +51,7 @@ const Accordion = () => {
                     activeIndex === index ? "in" : ""
                   }`}
                 >
-                  <div className="panel-body">{panel.content}</div>
+                  {activeIndex === index ? (<div className="panel-body">{panel.content}</div>) : ("")}
                 </div>
               </div>
             ))}

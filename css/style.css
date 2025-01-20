@@ -698,8 +698,8 @@ ul.ullist {padding-left: 20px;}
 .separator .line2 {height: 2px; flex: 1; background-color: #E43A3E;}
 .separator h3 {padding: 0 2rem;}
 .separator4 {display: flex; align-items: center; padding: 10px 0px; width:54%; margin:0 auto;}
-.separator4 .line {height: 2px; flex: 1; background-color: #E43A3E; margin-top:13px;}
-.separator4 .line2 {height: 2px; flex: 1; background-color: #E43A3E; margin-top:13px;}
+.separator4 .line {height: 2px; flex: 1; background-color: #E43A3E; margin-top:0px;}
+.separator4 .line2 {height: 2px; flex: 1; background-color: #E43A3E; margin-top:0px;}
 .separator4 h3 {padding: 0 2rem;}
 .card-section{margin-top:30px; padding-top:30px;}
 .share-icon{text-align-last:end;}
