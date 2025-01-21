@@ -52,7 +52,7 @@ const Commercial = () => {
                 </div>
                 <div class="col-md-4">
                     <div class="latestpost">
-                        <h4>Latest Post</h4>
+                        <h4>Latest Post</h4>            
                         <div class="row latest_sec">
                             <Link to={"/Commercial"}>
                                 <div class="col-md-4">

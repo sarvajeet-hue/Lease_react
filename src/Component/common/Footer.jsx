@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../../assets/logo.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
 
 export const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   return (
     <div>
       <footer>
@@ -44,21 +52,21 @@ export const Footer = () => {
               <div class="footer_menus">
                 <h5>Company</h5>
                 <nav>
-                  <ul>
-                  <li>
-                      <Link to="/">Home</Link>
+                <ul>
+                    <li>
+                      <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                      <Link to="/AboutUs">About Us</Link>
+                      <Link to={"/AboutUs"}>About Us</Link>
                     </li>
                     <li>
-                      <Link to="/Blog">Blog</Link>
+                      <Link to={"/Blog"}>Blog</Link>
                     </li>
                     <li>
-                      <Link to="/ContactUs">Contact</Link>
+                      <Link to={"/ContactUs"}>Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="/Career">Career</Link>
+                      <Link to={"/Career"}>Career</Link>
                     </li>
                   </ul>
                 </nav>
