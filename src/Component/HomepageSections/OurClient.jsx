@@ -40,7 +40,7 @@ export const OurClient = () => {
                   className={`tab ${activeTab === 'tab-2' ? 'current' : ''}`}
                   onClick={() => handleTabClick('tab-2')}
                 >
-                  Hotel
+                  Hospitality
                 </a>
               </li>
               <li>
@@ -49,7 +49,7 @@ export const OurClient = () => {
                   className={`tab ${activeTab === 'tab-3' ? 'current' : ''}`}
                   onClick={() => handleTabClick('tab-3')}
                 >
-                  Cinema
+                  Multiplex
                 </a>
               </li>
               <li>
