@@ -64,7 +64,7 @@ export const Main = () => {
                   </div>
                   <hr />
                   <div class="hotel_bg2">
-                    <h3>Hotel</h3>
+                    <h3>Hospitality</h3>
                     <p>
                       We are a new-age hotel & hospitality consulting firm
                       offering specialized services to clients across India.
@@ -98,7 +98,7 @@ export const Main = () => {
                   </div>
                   <hr />
                   <div class="hotel_bg2">
-                    <h3>Cinema</h3>
+                    <h3>Multiplex</h3>
                     <p>
                       We provide the best cinema space for your business growth
                       is easy to lease and makes your business stand out from

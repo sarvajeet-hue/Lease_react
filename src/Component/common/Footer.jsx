@@ -95,7 +95,7 @@ export const Footer = () => {
               </div>
             </div>
             <div class="col-md-3">
-              {/* <div class="footer_address">
+              <div class="footer_address">
                 <h5>corporate Address</h5>
                 <ul>
                   <li>
@@ -105,7 +105,7 @@ export const Footer = () => {
                     </p>{" "}
                   </li>
                 </ul>
-              </div> */}
+              </div>
               <div class="footer_address">
                 <h5>Address</h5>
                 <ul>
